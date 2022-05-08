@@ -15,4 +15,12 @@ using namespace std;
 
     char c;
     cout<<"size of char "<<sizeof(c)<<endl;
+
+    bool d;
+    cout<<"size of Bool "<<sizeof(d)<<endl;
+    
+    short int a1;
+    long int a2;
+    cout<<"size of short int "<<sizeof(a1)<<endl;
+    cout<<"size of long int "<<sizeof(a2)<<endl;
  }
