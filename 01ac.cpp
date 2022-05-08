@@ -20,7 +20,8 @@ using namespace std;
     cout<<"size of Bool "<<sizeof(d)<<endl;
     
     short int a1;
+    cout<<"size of shortint "<<sizeof(a1)<<endl;
+    
     long int a2;
-    cout<<"size of short int "<<sizeof(a1)<<endl;
-    cout<<"size of long int "<<sizeof(a2)<<endl;
+    cout<<"size of longint "<<sizeof(a2)<<endl;
  }
