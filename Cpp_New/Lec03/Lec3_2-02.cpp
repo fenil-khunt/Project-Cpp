@@ -32,9 +32,9 @@ int main()
         break;
 
     default:
-        cout<<"Enter valid oprator,/n "<<endl;
+        cout<<"Enter valid oprator "<<endl;
         break;
     }
     
     return 0;
-}
+} 
