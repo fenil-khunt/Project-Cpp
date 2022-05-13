@@ -15,6 +15,5 @@ int main()
 //      1   2   1      2     3     4                at a time oprator velue
     cout<<"k = "<<k<<endl; 
     
-    
     return 0;
 }

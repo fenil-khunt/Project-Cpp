@@ -22,6 +22,5 @@ int main()
         PoketMoney = PoketMoney - 300;
     }
     
-    
     return 0;
 }
