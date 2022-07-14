@@ -6,8 +6,6 @@ using namespace std;
 int main()
 {
     int n;
-    int num=(2*n);
-
     cin>>n;
 
     for(int num=(2*n),row=1; row<=n; row++,num--)
@@ -49,6 +47,6 @@ int main()
         }
         cout<<endl;
     }
-        
+
     return 0;
 }
