@@ -1,4 +1,4 @@
-// Rhombus Pattern
+// Number Pattern
 
 #include<iostream>
 using namespace std;
@@ -12,12 +12,9 @@ int main()
     {
         for(int colm=1; colm<=n; colm++)
         {
-            if(colm==row)
+            if(colm<=row)
             {
-                for(int line=n; line>=1; line--)
-                {
-                    cout<<"*";
-                }
+                cout<<row;
             }
             else
             {
@@ -26,6 +23,7 @@ int main()
         }
         cout<<endl;
     }
+    
     
     return 0;
 }
