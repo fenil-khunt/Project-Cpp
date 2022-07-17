@@ -1,4 +1,4 @@
-// inverted Pattern using numbers
+// Inverted Pattern using numbers
 
 #include<iostream>
 using namespace std;
