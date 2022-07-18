@@ -14,7 +14,7 @@ int main()
         {            
             if(colm<=row)
             {
-                for(int num=row; 1<=num; num--,colm--)
+                for(int num=row; num>=1; num--,colm--)
                 {
                     cout<<num<<" ";
                 }
