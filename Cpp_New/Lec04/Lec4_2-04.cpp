@@ -8,13 +8,14 @@ int main()
     int n;
     cin>>n;
 
-    for(int row=n; row>=1; row--)
+    for(int row=1; row<=n; row++)
     {
-        for(int colm=1; colm<=n; colm++)
+        for(int num=1,colm=n; num<=(row-colm),colm>=1; colm--)
         {
             if(colm<=row)
             {
-                cout<<row;
+                cout<<num<<" ";
+                num++;
             }
             else
             {
@@ -23,7 +24,6 @@ int main()
         }
         cout<<endl;
     }
-    
     
     return 0;
 }
