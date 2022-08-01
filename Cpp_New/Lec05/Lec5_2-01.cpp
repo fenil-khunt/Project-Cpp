@@ -1,6 +1,7 @@
 // Number is Prime or Not
 
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 int main()
@@ -9,7 +10,7 @@ int main()
     bool flag=0;
     cin>>n;
 
-    for(int i=2; i<n; i++)
+    for(int i=2; i<sqrt(n); i++)
     {
         if(n%i==0)
         {
