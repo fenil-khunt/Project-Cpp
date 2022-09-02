@@ -3,17 +3,22 @@
 #include<iostream>
 using namespace std;
 
-int addition(int num1,int num2)
+void print(int num)
 {
+    cout<<num<<endl;
+}
+
+int addition(int num1,int num2)
+{   
     int sum = num1 + num2 ;
     return sum; 
 }
 
-int n1=1,n2=2;
-
 int main()
 {
-    cout<<"the sum is "<<addition(n1,n2)<<endl;     
+    int n1=1,n2=2;
+    print(addition(n1,n2));     
     
     return 0;
 }
+
